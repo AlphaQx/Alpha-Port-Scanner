@@ -20,7 +20,7 @@ except socket.gaierror:
 start_port = int(sys.argv[2])
 end_port = int(sys.argv[3])
 
-print("Scannig target",target)
+print("Scannig Target",target)
 
 def scan_port(port):
     s =  socket.socket(socket.AF_INET, socket.SOCK_STREAM)
