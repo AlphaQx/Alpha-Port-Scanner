@@ -4,7 +4,7 @@ import threading
 
 usage = "python3 apscan.py IP_address START_PORT END_PORT"
 print("-"*80)
-print("Welcome to Alpha Port Scanner")
+print("Welcome to Port Scanner by AlphaQx")
 print("-"*80)
 
 if(len(sys.argv) != 4) :
@@ -20,7 +20,7 @@ except socket.gaierror:
 start_port = int(sys.argv[2])
 end_port = int(sys.argv[3])
 
-print("Scannig target",target)
+print("Scannig Target",target)
 
 def scan_port(port):
     s =  socket.socket(socket.AF_INET, socket.SOCK_STREAM)
