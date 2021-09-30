@@ -14,7 +14,7 @@ if(len(sys.argv) != 4) :
 try:
     target = socket.gethostbyname(sys.argv[1])
 except socket.gaierror:
-    print("Name resolution error")
+    print("Error: Name Resolution)
     sys.exit()
 
 start_port = int(sys.argv[2])
