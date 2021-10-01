@@ -14,13 +14,13 @@ if(len(sys.argv) != 4) :
 try:
     target = socket.gethostbyname(sys.argv[1])
 except socket.gaierror:
-    print("Error: Name Resolution)
+    print("Error 404: Name Resolution)
     sys.exit()
 
 start_port = int(sys.argv[2])
 end_port = int(sys.argv[3])
 
-print("Scannig Target",target)
+print("Scanning Target",target)
 
 def scan_port(port):
     s =  socket.socket(socket.AF_INET, socket.SOCK_STREAM)
