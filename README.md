@@ -35,13 +35,13 @@ To scan all open ports from 1 to 200 of example.com<br />
  
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/AlphaQx/Alpha-Port-Scanner.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlphaQx/Alpha-Port-Scanner/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/AlphaQx/Alpha-Port-Scanner.svg?style=for-the-badge
 [forks-url]: https://github.com/AlphaQx/Alpha-Port-Scanner/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/AlphaQx/Alpha-Port-Scanner.svg?style=for-the-badge
 [stars-url]: https://github.com/AlphaQx/Alpha-Port-Scanner/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/AlphaQx/Alpha-Port-Scanner.svg?style=for-the-badge
 [issues-url]: https://github.com/AlphaQx/Alpha-Port-Scanner/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/AlphaQx/Alpha-Port-Scanner.svg?style=for-the-badge
 [license-url]: https://github.com/AlphaQx/Alpha-Port-Scanner/blob/master/LICENSE
