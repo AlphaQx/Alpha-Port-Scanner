@@ -12,7 +12,7 @@ then, go to `Alpha-port-scanner` directory using command: <br />
 Now run `apscan` using command <br />
 ``` python apscan.py [ip address] [start point] [end point] ```
  
-*_example:_*<br />
+_*example:*_<br />
 To scan all open ports from 1 to 200 of example.com <br/>
 ``` python apscan.py example.com 1 200 ```<br/>
 
