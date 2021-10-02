@@ -25,5 +25,5 @@ To scan all open ports from 1 to 200 of example.com <br/>
   <img src="https://contrib.rocks/image?repo=AlphaQx/Alpha-Port-Scanner" />
 </a>
 
- #*Dont forget to star :star: this repo and follow me!*
+ #*Dont forget to star :star: this repo and follow me :raising_hand:!*
  ---
