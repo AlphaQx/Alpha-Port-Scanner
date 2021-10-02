@@ -12,7 +12,7 @@ then, go to `Alpha-port-scanner` directory using command: <br />
 Now run `apscan` using command <br />
 ``` python apscan.py [ip address] [start point] [end point] ```
  
-example:<br />
+*_example:_*<br />
 To scan all open ports from 1 to 200 of example.com<br />
 ``` python apscan.py example.com 1 200<br /> ```
 
@@ -25,4 +25,4 @@ To scan all open ports from 1 to 200 of example.com<br />
   <img src="https://contrib.rocks/image?repo=AlphaQx/Alpha-Port-Scanner" />
 </a>
 ***
- >## *Dont forget to star this repo and follow me!*
+ >*Dont forget to star this repo and follow me!*
