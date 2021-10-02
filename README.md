@@ -33,7 +33,7 @@
 
 ### Language Used:
 
-<img align="left" alt="C" width="26px" src="<img src="https://img.icons8.com/color/48/000000/python--v1.png"/>" />
+<img alt="C" width="26px" src="<img src="https://img.icons8.com/color/48/000000/python--v1.png"/>" />
 
  ## *Dont forget to star this repo and follow me!*
  
