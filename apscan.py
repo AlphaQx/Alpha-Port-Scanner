@@ -28,19 +28,32 @@ if end_port > 65535:
 
 print("Scanning Target",target)
 
-def scan_port(port):
-    s =  socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.settimeout(2)
-    conn = s.connect_ex((target, port))
-    if(not conn):
-        print("port {} is OPEN" . format(port))
-        s.close()
-        #Added open port information in log file with timestamp
-        print("Logging in open port details in same directory...")
-        logging.basicConfig(level=logging.INFO, format='%(message)s port open at %(asctime)s' ,filename='openports.log',filemode='a',datefmt='%Y-%m-%d %H:%M:%S')
-        logging.info("{}".format(port))
+def scan_port(start_port,end_port):
+    for port in range(start_port,end_port):
+        s =  socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        s.settimeout(2)
+        conn = s.connect_ex((target, port))
+        if(not conn):
+            print("port {} is OPEN" . format(port))
+            s.close()
+            #Added open port information in log file with timestamp
+            print("Logging in open port details in same directory...")
+            logging.basicConfig(level=logging.INFO, format='%(message)s port open at %(asctime)s' ,filename='openports.log',filemode='a',datefmt='%Y-%m-%d %H:%M:%S')
+            logging.info("{}".format(port))
 
-for port in range(start_port, end_port+1):
+#Starts 5 threads only if the number of ports to be scanned is greater than 5
+if end_port - start_port <=5:
+    per_thread_count = 5
+else:
+    per_thread_count = (end_port - start_port) // 5 # Gonna allocate only (end_port-start_port) / 5 number of threads to check for a single thread
+threads = []
+for port in range(start_port,end_port,per_thread_count):
 
-    thread = threading.Thread(target = scan_port, args = (port,))
+    thread = threading.Thread(target = scan_port, args = (port,port+per_thread_count))
     thread.start()
+    threads.append(thread)
+
+for thread in threads:
+    thread.join()
+
+print("Done Searching for open ports")
