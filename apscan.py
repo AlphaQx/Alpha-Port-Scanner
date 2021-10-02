@@ -4,7 +4,7 @@ import threading
 import logging
 
 
-usage = "python3 apscan.py IP_address START_PORT END_PORT"
+usage = "Usage: python3 apscan.py IP_address START_PORT END_PORT"
 print("-"*80)
 print("Welcome to Port Scanner by AlphaQx")
 print("-"*80)
@@ -21,6 +21,10 @@ except socket.gaierror:
 
 start_port = int(sys.argv[2])
 end_port = int(sys.argv[3])
+
+if end_port > 65535:
+    print("Highest TCP port number is 65535 and you have given ",end_port,". Will only scan till 65535")
+    end_port = 65535
 
 print("Scanning Target",target)
 
