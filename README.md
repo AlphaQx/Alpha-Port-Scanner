@@ -1,6 +1,5 @@
 ## Welcome to Alpha Port Scanner
 **Alpha port scanner** (apscan) is an open source port scanner designed to scan a server or host for open ports. 
-Alpha-Port-Scanner is really simple port scanner , for times when we can't use nmap. 
 
 Installation:
 
