@@ -22,7 +22,7 @@ To scan all open ports from 1 to 200 of example.com <br/>
 ---
 ## :handshake: Our Contributors
 <a href="https://github.com/AlphaQx/Alpha-Port-Scanner/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=AlphaQx/Alpha-Port-Scanner" />
+  <img src="https://contrib.rocks/image?repo=AlphaQx/Alpha-Port-Scanner"/>
 </a>
 
  #*Dont forget to star :star: this repo and follow me :raising_hand:!*
