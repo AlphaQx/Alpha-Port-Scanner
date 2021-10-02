@@ -26,7 +26,7 @@
 
 [![Open Source Helpers](https://www.codetriage.com/alphaqx/alpha-port-scanner/badges/users.svg)](https://www.codetriage.com/alphaqx/alpha-port-scanner)
 
-## :handshake: Our Contributors
+## :handshake: Our Contributors:
 <a href="https://github.com/AlphaQx/Alpha-Port-Scanner/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=AlphaQx/Alpha-Port-Scanner" />
 </a>
