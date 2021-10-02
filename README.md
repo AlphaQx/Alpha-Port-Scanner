@@ -9,13 +9,13 @@
 
 ### Installation:<br />
 
-- Download alpha-port-scanner using command<br />
+- Download alpha-port-scanner using command :arrow_down:<br />
 ``` git clone https://github.com/AlphaQx/Alpha-Port-Scanner.git ``` <br />
 
-- Then, go to Alpha-port-scanner directory using command: <br />
+- Then, go to Alpha-port-scanner directory using command :arrow_down: <br />
 ``` cd alpha-port-scanner ``` 
 
-- Now run apscan using command <br />
+- Now run apscan using command :arrow_down: <br />
 ``` python apscan.py [ip address] [start point] [end point] ```
  
 ### Example:<br />
