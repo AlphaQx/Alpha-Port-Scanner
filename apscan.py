@@ -4,7 +4,7 @@ import threading
 
 usage = "python3 apscan.py IP_address START_PORT END_PORT"
 print("-"*80)
-print("Welcome to Port Scanner by AlphaQx")
+print("Welcome to Alpha Port Scanner ")
 print("-"*80)
 
 if(len(sys.argv) != 4) :
